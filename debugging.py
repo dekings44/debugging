@@ -50,15 +50,48 @@ input to 5.
 
 # Third, Play Computer
 
-year = int(input('What is your year of birth? '))
+# year = int(input('What is your year of birth? '))
 
-if year > 1980 and year < 1994:
-    print('You are a millenial.')
-elif year > 1994:
-    print('You are a Gen Z')
+# if year > 1980 and year < 1994:
+#     print('You are a millenial.')
+# elif year > 1994:
+#     print('You are a Gen Z')
 
 '''
 This code will return nothing when 1994 is entered
 This is because 1994 was not captured
 A simple stricter equality sign for 1994 will capture it.
 '''
+
+'''
+PRINT IS YOUR FRIEND
+
+The use of print is a very effective and friendly way
+to debug errors line after line.
+It help you see errors that your IDE and console could not capture
+'''
+
+# Using A Debugger Tool
+
+def mutate(a_list):
+    b_list = []
+    for item in a_list:
+        new_item = item * 2
+    b_list.append(new_item)
+    print(b_list)
+
+mutate([1, 2, 3, 5, 8, 13])
+
+'''
+Using the debugger it is very clear that the b_list is empty
+following the block code it belongs to
+'''
+
+def mutate(a_list):
+    b_list = []
+    for item in a_list:
+        new_item = item * 2
+        b_list.append(new_item)
+    print(b_list)
+
+mutate([1, 2, 3, 5, 8, 13])
