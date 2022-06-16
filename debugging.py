@@ -27,10 +27,10 @@ be met.
 
 #Second Reproducing the bug
 
-from random import randint
-dice_imgs = ['😴', '😥', '🤑', '😷', '🤓', '😭', '😍']
-dice_num = randint(1, 6)
-print(dice_imgs[dice_num])
+# from random import randint
+# dice_imgs = ['😴', '😥', '🤑', '😷', '🤓', '😭', '😍']
+# dice_num = randint(1, 6)
+# print(dice_imgs[dice_num])
 
 '''
 The above code works, however, it occasionally produce error.
@@ -43,7 +43,22 @@ input to 5.
 
 '''
 
-from random import randint
-dice_imgs = ['😴', '😥', '🤑', '😷', '🤓', '😭']
-dice_num = randint(1, 6)
-print(dice_imgs[dice_num])
+# from random import randint
+# dice_imgs = ['😴', '😥', '🤑', '😷', '🤓', '😭']
+# dice_num = randint(1, 6)
+# print(dice_imgs[dice_num])
+
+# Third, Play Computer
+
+year = int(input('What is your year of birth? '))
+
+if year > 1980 and year < 1994:
+    print('You are a millenial.')
+elif year > 1994:
+    print('You are a Gen Z')
+
+'''
+This code will return nothing when 1994 is entered
+This is because 1994 was not captured
+A simple stricter equality sign for 1994 will capture it.
+'''
