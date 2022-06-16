@@ -73,25 +73,34 @@ It help you see errors that your IDE and console could not capture
 
 # Using A Debugger Tool
 
-def mutate(a_list):
-    b_list = []
-    for item in a_list:
-        new_item = item * 2
-    b_list.append(new_item)
-    print(b_list)
+# def mutate(a_list):
+#     b_list = []
+#     for item in a_list:
+#         new_item = item * 2
+#     b_list.append(new_item)
+#     print(b_list)
 
-mutate([1, 2, 3, 5, 8, 13])
+# mutate([1, 2, 3, 5, 8, 13])
 
 '''
 Using the debugger it is very clear that the b_list is empty
 following the block code it belongs to
 '''
 
-def mutate(a_list):
-    b_list = []
-    for item in a_list:
-        new_item = item * 2
-        b_list.append(new_item)
-    print(b_list)
+# def mutate(a_list):
+#     b_list = []
+#     for item in a_list:
+#         new_item = item * 2
+#         b_list.append(new_item)
+#     print(b_list)
 
-mutate([1, 2, 3, 5, 8, 13])
+# mutate([1, 2, 3, 5, 8, 13])
+
+
+# TAKE A BREAK
+
+# ASK A FRIEND
+
+# RUN YOUR CODE OFTEN.
+
+# STACKOVERFLOW
